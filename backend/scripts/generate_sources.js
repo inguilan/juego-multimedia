@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const modelsPath = path.join('C:/Users/dell/Desktop/Blender_Threejs_Mongo/game-project/public/models/puente1');
-const outputPath = path.join(__dirname, '../data/sources_1.js');
+const outputPath = path.join(__dirname, '../data/sources_3.js');
 
 if (!fs.existsSync(modelsPath)) {
     console.error('❌ El directorio no existe:', modelsPath);
